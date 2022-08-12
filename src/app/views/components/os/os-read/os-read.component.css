@@ -28,6 +28,18 @@ table {
     color: rgb(218, 233, 12);
 }
 
-#delete {
+#visibility {
     color: rgb(233, 92, 92);
+}
+
+td.baixa {
+    color: rgb(1, 255, 1);
+}
+
+td.media {
+    color: yellow;
+}
+
+td.alta {
+    color: red;
 }

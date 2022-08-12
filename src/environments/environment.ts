@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   baseUrl: 'https://fs-os-api.herokuapp.com'
+  //baseUrl: 'http://localhost:8080'
 };
 
 /*
