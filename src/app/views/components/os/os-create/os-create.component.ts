@@ -51,6 +51,10 @@ export class OsCreateComponent implements OnInit {
     })
   }
 
+  cancel():void {
+    this.router.navigate(['os'])
+  }
+
   listarClientes():void {
     this.clienteService.findAll().subscribe(resposta => {
       this.clientes = resposta;
